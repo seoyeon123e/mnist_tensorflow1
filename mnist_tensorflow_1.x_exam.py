@@ -1,4 +1,3 @@
- 
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 x = tf.placeholder(shape=[None, 2], dtype=tf.float32)
@@ -110,4 +109,3 @@ with tf.Session() as sess:
     df = pandas.DataFrame(data)
     print(df)  
     print() 
-    
